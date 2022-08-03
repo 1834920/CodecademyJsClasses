@@ -24,10 +24,23 @@ library.movieTime() // returns false
 */
 
 class Network {
-    constructor(data, users) {
-      this.data = data;
-      this.users = users;
-    }
-    // Insert code below
-    
+  constructor(data, users) {
+    this.data = data;
+    this.users = users;
+    this.dataUsed = (this.users * 5);
+    this.finalData = (this.data - this.dataUsed);
   }
+  // Insert code below
+  
+
+  movieTime() {
+    if (this.finalData >= 10) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+
+const library = new Network(50, 9) 
+console.log(library.movieTime()) // returns false
