@@ -16,3 +16,18 @@ Feel free to reference the Unicode Table as well as the JavaScript String method
 */
 
 // Write class below
+class ShiftCipher {
+    constructor(num) {
+      this.num = num;
+    }
+    encrypt() {
+  
+    }
+    decrypt() {
+  
+    }
+  }
+  
+  //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode
+  
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
